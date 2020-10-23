@@ -478,7 +478,7 @@ textarea.form-control{ height: auto; padding: 10px;}
 	.myui-panel__head.active{ height: 35px;}
 	
 	/* nav */
-	.nav-head > li, .nav-tabs > li{ margin-top: 8px; margin-left: 15px;}
+	.nav-head > li, .nav-tabs > li{ margin-top: 8px; margin-left: 10px;}
 	.nav-tabs.active{ height: 35px; white-space:nowrap; overflow-y:hidden; overflow-x:scroll; -webkit-overflow-scrolling:touch}
 	.nav-tabs.active li{ float: none; display: inline-block;}
 	.nav-tabs > li .dropdown-box{ margin-left: -80px;}
