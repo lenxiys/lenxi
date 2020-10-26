@@ -20,7 +20,7 @@ a.disabled{ cursor: not-allowed; opacity: 0.6;}
 .text-333{ color: #333;}
 .text-muted{ color: #999;}
 .text-red{ color: red;}
-.text-link{ color: blue;}
+.text-link{ color: #6495ed;}
 .text-fff{ color: #fff;}
 
 /* form */
