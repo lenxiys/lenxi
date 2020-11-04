@@ -559,12 +559,12 @@ textarea.form-control{ height: auto; padding: 10px;}
 	.flickity-prev-next-button.previous{ border-radius:0 5px 5px 0}
 	.flickity-prev-next-button.next{ border-radius:5px 0 0 5px}
 
-	/* slide */
+	/* slide  */
 	.carousel-control{ width: 30px; height: 100%;}
 	.carousel-control .fa{ margin-top: -15px; display: block; width: 30px; height: 30px; font-size: 20px; line-height: 30px;}
 	.carousel-control.left{ left: 10px;}
 	.carousel-control.right{ right: 10px; }
-	
+	 
 	/* more */
 	.m-margin-0{ margin: 0 !important;}
 	.m-padding-0{ padding: 0 !important;}

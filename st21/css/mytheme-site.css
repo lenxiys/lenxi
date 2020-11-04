@@ -12,8 +12,8 @@
 /* header-logo */
 .myui-header__logo,.myui-header__menu,.myui-header__search{float:left;}
 .myui-header__logo img{ max-width: 200px;}
-
-/* header-seacrh */
+ 
+/* header-seacrh  */
 .myui-header__search{position: relative; width: 260px; margin-left: 50px; margin-top: 12px;}
 .myui-header__search .form-control{ padding-right: 30px; border-radius: 18px; background-color: #f5f5f5; border: 0;}
 .myui-header__search .submit{ display:block; position:absolute; top: 0; right: 15px; height:32px; line-height:30px; text-align:center; background: none; border: 0; font-size: 12px; cursor: pointer;}
