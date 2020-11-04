@@ -32,7 +32,7 @@
 .myui-header__menu > li .dropdown-box{ margin-left: -250px; padding-top: 0;}
 .myui-header__menu > li .dropdown-box .item{ width: 500px;}
 .myui-header__menu > li .dropdown-box .item li{ padding: 6px;}
-
+ 
 /* header-user */
 .myui-header__user{float:right;}
 .myui-header__user > li{ float:left; position: relative; padding: 18px 0 10px; margin-left: 30px;}
@@ -45,7 +45,7 @@
 
 /* content */
 .myui-content__thumb{ float: left;}
-.myui-content__thumb .myui-vodlist__thumb{ width: 220px;}
+.myui-content__thumb .myui-vodlist__thumb{ width: 200px;}
 .myui-content__thumb.active .myui-vodlist__thumb{ width: 150px;}
 .myui-content__detail,.myui-content__operate{ float: left; width: calc(100% - 220px); padding-left: 20px;}
 .myui-content__detail.active{ width: calc(100% - 150px);}
@@ -163,5 +163,5 @@
 	/* news */
 	.myui-newslist li .title{ font-size: 18px; line-height: 30px;}
 	.myui-art__nav li a{ display: block; padding: 0 10px;}
-	
+	.myui-content__operate{ float: left; margin-top: 10px}
 }
