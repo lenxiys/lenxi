@@ -27,7 +27,7 @@
 
 /* header-menu */
 .myui-header__menu{position:relative;}
-.myui-header__menu > li{ position: relative; float: left; margin-left: 35px;}
+.myui-header__menu > li{ position: relative; float: left; margin-left: 15px;}
 .myui-header__menu > li > a{ font-size: 16px; line-height: 60px;}
 .myui-header__menu > li .dropdown-box{ margin-left: -250px; padding-top: 0;}
 .myui-header__menu > li .dropdown-box .item{ width: 500px;}
