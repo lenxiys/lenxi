@@ -519,7 +519,7 @@ var MyTheme = {
 					},
 					share: [{
 						"bdSize": 24,
-						bdCustomStyle: myui.tpl+'statics/css/mytheme-share.css'
+						bdCustomStyle: 'https://cdn.jsdelivr.net/gh/aruoop/aruoop@master/st22/css/mytheme-share.css'
 					}]
 				}
 				with(document)0[(getElementsByTagName("head")[0]||body).appendChild(createElement('script')).src=''+myui.bdapi+'?cdnversion='+~(-new Date()/36e5)];
