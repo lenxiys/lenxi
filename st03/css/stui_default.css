@@ -52,7 +52,7 @@ body{padding-top:80px}
 .stui-content__detail{width:100%;padding:10px 0 20px 20px;}
 .stui-content__detail .title{margin: 0 0 10px;}
 .stui-content__detail .data{margin-bottom:10px}
-.stui-content__detail .data li{float:left;margin-right:20px}
+.stui-content__detail .data li{float:left;margin-right:0px}
 .stui-content__detail .play-btn{margin-top:20px}
 .stui-content__detail .play-btn .btn{ margin-right: 10px;}
 .stui-content__detail .play-btn .share{margin-top:5px}
