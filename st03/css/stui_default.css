@@ -29,7 +29,7 @@
     /* header */
     .stui-header__top{ height: 90px;}
 	.top-fixed-down{margin-top:-50px}
-	.stui-header__side{float:none;position:absolute;top:10px;left:150px;right:0;width:auto}
+	.stui-header__side{float:none;position:absolute;top:0px;left:150px;right:0;width:auto}
 	.stui-header__logo,.stui-header__menu{float:none}
 	.stui-header__logo{margin:10px 0 10px}
 	.stui-header__logo .logo{width:127px;height:40px;}
