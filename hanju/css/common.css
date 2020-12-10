@@ -2638,7 +2638,7 @@ body .PopupWeChat .layui-layer-content {
 .mod-search-list .item .info{margin-left:180px;position:relative}
 @media(max-width:960px)
 {
-  .mod-search-list .item .info{margin-left:0px;position:relative}
+  .mod-search-list .item .info{/*margin-left:0px;*/position:relative}
 }
 .mod-search-list .item .info .title{width:100%;height:32px;line-height:32px;margin-bottom:10px;font-size:22px;float:left}
 @media(max-width:960px)
@@ -2660,7 +2660,7 @@ body .PopupWeChat .layui-layer-content {
  display:block;
  position:absolute;
  bottom:0;
- left: 10rem;
+ /*left: 10rem;*/
  color:#FFF!important;
  border-radius:2px
  } 
@@ -2674,7 +2674,7 @@ body .PopupWeChat .layui-layer-content {
 .mod-search-list .item.film-item .img,.mod-search-list .item.film-item .img a{width:160px;height:224px;}
 @media(max-width:960px)
 {
- .mod-search-list .item.film-item .img,.mod-search-list .item.film-item .img a{width:100%;height:224px;} 
+ .mod-search-list .item.film-item .img,.mod-search-list .item.film-item .img a{/*width:100%;height:224px;*/} 
 }
 .mod-search-list .item.film-item .info{height:224px;}
 
