@@ -740,13 +740,13 @@ header .right .reward{
 
 /*幻灯片*/
 .banner-slide{
-	width: 420px;
+	width: 100%;
     height: 248px;
     background: #FAFAFA;
     position: relative;
 }
 .banner-slide .bd{
-	width: 420px;
+	width: 100%;
     height: 248px;
 	overflow: hidden;
 }
@@ -754,7 +754,7 @@ header .right .reward{
     position: relative;
     margin: 0;
     vertical-align: top;
-    width: 420px;
+    width: 100%;
     height: 248px;
 }
 /*自适应幻灯片*/
