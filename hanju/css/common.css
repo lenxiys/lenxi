@@ -51,7 +51,7 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 .top-catbox{width:300px;margin:0 20px 20px 0;background:#FFF;padding:0 20px;float:left}
 @media(max-width:960px)
 {
- .top-catbox{width:100%;margin:0 20px 20px 0;background:#FFF;padding:0 20px;float:left} 
+ .top-catbox{width:50%;margin:0 0px 0px 0;background:#FFF;padding:0 20px;float:left} 
 }
 .top-catbox .m-title{border-bottom:1px solid #F5F5F5}
 .top-catbox .m-title a{font-size:18px;line-height:55px;height:55px;color:#222}
@@ -517,7 +517,7 @@ header .head {
     position: fixed;
     top: -0;
     -webkit-transform: translateZ(0);
-    height: 100px;
+    height: 90px;
 }
 }
 
@@ -779,6 +779,9 @@ header .right .reward{
     height: 140px;
 }
 }
+.mod-main .col12{width:640px}
+.mod-main .col14{width:860px}
+.mod-main .col4{width: 200px;}
 .banner-slide li.slider-item a {
     display: block;
     height: 100%;
@@ -895,13 +898,16 @@ header .right .reward{
 @media(max-width:960px)
 {
  .container{
-	 width:100%;margin:0 auto}
+	 width:100%;margin:0 auto;}
+	 
 }
 @media(max-width:3000px)
 {
 .container{
 	max-width:1120px;
 	margin:0 auto}
+.wrap_ff{
+	padding-top: 30px}
 }
 
 ._w1000 .container {
@@ -978,10 +984,8 @@ header .right .reward{
   .mod-main .col8{
 	  width:100%;
 	  }
+  .mod-main .col12{width:100%}
 }
-.mod-main .col12{width:640px}
-.mod-main .col14{width:860px}
-.mod-main .col4{width: 200px;}
 
 .main-inner {
     width: 770px;
@@ -1787,9 +1791,10 @@ display: inline-block;
 	position: relative;
     display: block;
     border-radius: .30rem;
-    width: 2.75rem;
+    width: 4.25rem;
     height: 2.5rem;
     line-height: 44px;
+	/*padding: 0 12px;*/
     text-align: center;
     white-space: nowrap;
     text-decoration: none;
@@ -2676,6 +2681,19 @@ body .PopupWeChat .layui-layer-content {
  color:#FFF!important;
  border-radius:2px
  } 
+ .reply_box .mac_msg_l {
+     padding: 10px 1%;
+     float: left;
+     width: 100%;
+ 	}
+ .reply_box .mac_msg_r {
+     margin: 10px 1%;
+     float: right;
+     width: 100%;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     color: #666;
+ }
 }
 .mod-search-list .item .info .btn:hover{background: linear-gradient(to left,#ff2823 0,#ff8466 100%);}
 .mod-search-list .item .img,.mod-search-list .item .img a{float:left;display:block;position:relative;background:#FAFAFA}
@@ -2701,10 +2719,11 @@ body .PopupWeChat .layui-layer-content {
 .x_fixed_tool .ft_cell{position:relative;display:block;width:42px;height:42px;color:#999;cursor:pointer;transform:translateZ(0);color:#999}
 .x_fixed_tool .ft_cell .iconfont{position:absolute;top:11px;left:11px;overflow:hidden;cursor:pointer;width:22px;height:22px;font-size:22px;line-height:20px}
 .x_fixed_tool .ft_cell:hover{background:#FF443F;color:#FFF;background: linear-gradient(to left,#ff2823 0,#ff8466 100%);}
-.x_fixed_tool .ft_cell_pop{display:none;position:absolute;right:50px;bottom:-20px;padding:9px 9px 6px 9px;text-align:center;cursor:default;background:#fff;-webkit-animation:ani_x_fixed_tool_pop .3s 0s ease-out forwards;animation:ani_x_fixed_tool_pop .3s 0s ease-out forwards}
+.x_fixed_tool .ft_cell_pop{display:block;position:absolute;right:50px;bottom:-20px;padding:9px 9px 6px 9px;text-align:center;cursor:default;background:#fff;-webkit-animation:ani_x_fixed_tool_pop .3s 0s ease-out forwards;animation:ani_x_fixed_tool_pop .3s 0s ease-out forwards}
 .x_fixed_tool .ft_general_pop{width:85px;height:40px;bottom:auto;top:0;font-size:0;padding:0}
 .x_fixed_tool .ft_tinyapp_qr{width:136px;height:230px;background:url(../images/app-bg.png)}
 .x_fixed_tool .ft_cell_pop{display:none;position:absolute;right:50px;bottom:-110px;text-align:center;cursor:default;background:#fff;padding:0;-webkit-animation:ani_x_fixed_tool_pop .3s 0s ease-out forwards;animation:ani_x_fixed_tool_pop .3s 0s ease-out forwards}
+.x_fixed_tool .mac_history_box{display:none;position:absolute;right:50px;bottom:-110px;text-align:center;cursor:default;background:#fff;padding:0;-webkit-animation:ani_x_fixed_tool_pop .3s 0s ease-out forwards;animation:ani_x_fixed_tool_pop .3s 0s ease-out forwards}
 .x_fixed_tool .ft_cell:hover .ft_cell_pop{display:block}
 .x_fixed_tool .ft_cell_pop .triangle_right{position:absolute;right:-13px;bottom:40px;overflow:visible;border-left:none;border:7px solid transparent;border-left-color:#fff}
 .x_fixed_tool .ft_general_pop .triangle_right{bottom:auto;top:13px}
@@ -2753,4 +2772,39 @@ height: 16px;
     background: url(../images/coupon-icon-2-39ac4b9013.png) center no-repeat;
     background-size: 86px 103px;
     z-index: 9;
+}
+/*明星关联视频*/
+.star-r-list .aPic{width:68px;height:68px;float:left;overflow:hidden;-webkit-border-radius:68px;-moz-border-radius:68px;border-radius:68px;display:inline;box-shadow: 0 1px 5px #d0d0d0;}
+.star-r-m-list{display:none}
+/*滑动显示*/
+.itr{float:right;margin-top:24px;transition:.3s 0s all linear}
+.itr .mod{position:relative;float:left;margin-left:15px}
+.itr .mod>a{display:inline-block;line-height:40px}
+.itr .mod>a>i{margin-right:5px}
+.itr .mod>a>.caret{margin-left:5px;color:#888}
+.mac_history_box { width:250px; margin-left: -40px;}
+.mac_history_box dt{text-align:right; padding-right:15px; height:24px; line-height:24px; border-bottom:1px solid #F9F9F9; cursor:pointer}
+.mac_history_box dt a{color:#000000}
+.mac_history_box dd{clear:both;height:24px;line-height:24px;text-overflow:ellipsis;white-space: nowrap;width: 96%;padding:0 2%;overflow: hidden;float: right}
+.mac_history_box dd a{color:#990033; display:block;padding-left:5px;}
+.mac_history_box dd a:hover{background-color: #acacac;color: white;}
+
+.itr .mod:hover .dropdown{display:block}
+.itopbar.fixed .ilogo,.itopbar.fixed .itr,.itopbar.fixed .searchform{margin-top:10px}
+.itopbar.fixed .sitenav a{padding:10px 0}
+.itopbar.fixed .sitenav a.cur{padding:10px 0 8px}
+/*滑动显示*/
+.mac_drop_box {
+    /*display: none;*/
+    position: absolute;
+    z-index: 999;
+    width: 240px;
+    top: 100%;
+    right: -15px;
+    padding: 15px;
+    font-size: 12px;
+    color: #999;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    border-radius: 4px;
 }
