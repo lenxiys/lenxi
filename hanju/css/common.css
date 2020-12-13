@@ -135,16 +135,16 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 .reply_box .mac_msg_l .count_bg{width:60px;height:5px;background: linear-gradient(90deg, #f25f4d 30%, #59b84b 20%, #30a1d9 65%, #fdcd34 10%);}
 .reply_box .mac_msg_l .msg_count{
 	padding:2px 0;color: #fff;text-align: center;font-size: 13px;
-	background: -moz-linear-gradient(top, #444444 0%, #222222 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(100%,#222222));
-	background: -webkit-linear-gradient(top, #444444 0%,#222222 100%);
-	background: -o-linear-gradient(top, #444444 0%,#222222 100%);
-	background: -ms-linear-gradient(top, #444444 0%,#222222 100%);
-	background: linear-gradient(to bottom, #444444 0%,#222222 100%);
+	background: -moz-linear-gradient(top, #4c8fe9 0%, #4c8fe9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c8fe9), color-stop(100%,#4c8fe9));
+	background: -webkit-linear-gradient(top, #4c8fe9 0%,#4c8fe9 100%);
+	background: -o-linear-gradient(top, #4c8fe9 0%,#4c8fe9 100%);
+	background: -ms-linear-gradient(top, #4c8fe9 0%,#4c8fe9 100%);
+	background: linear-gradient(to bottom, #4c8fe9 0%,#4c8fe9 100%);
 }
 .reply_box .mac_msg_l .msg_count strong{display: block;}
 .reply_box .mac_msg_l  .msg_list{float: left;width: 85%;margin-bottom: 10px;}
-.reply_box .mac_msg_l .msg_list .msg_title{text-align:left;font-size:16px;border-bottom: 1px #d3e9fb dotted;line-height: 26px;}
+.reply_box .mac_msg_l .msg_list .msg_title{text-align:left;font-size:16px;border-bottom: 1px #ffffff dotted;line-height: 26px;}
 .reply_box .mac_msg_l .msg_list .msg_title span.time{float: right;font-size: 12px;}
 .reply_box .mac_msg_l .msg_list .msg_reply{color: #666;}
 .reply_box .mac_msg_l .msg_list .reply_answer{color: #3c8f3f;}
@@ -154,9 +154,9 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 	position: relative;
 	margin: 0 0 10px;
 	padding: 6px 10px 8px;
-	border: 1px solid #d3e9fb;
+	border: 1px solid #4c8fe9;
 	border-radius: 0.2rem;
-	background-color: #f5fbff;
+	background-color: #ffffff;
 }
 .reply_box .mac_msg_l .msg_list .reply_answer:after {
 	content: '';
@@ -188,7 +188,7 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 	content: '';
 	width: 0px;
 	height: 0px;
-	border-color: transparent #f5fbff #f5fbff transparent;
+	border-color: transparent #ffffff #ffffff transparent;
 	border-style: solid;
 	border-width: 7px;
 	position: absolute;
@@ -201,7 +201,7 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 	content: '';
 	width: 0px;
 	height: 0px;
-	border-color: transparent #d3e9fb #d3e9fb transparent;
+	border-color: transparent #4c8fe9 #4c8fe9 transparent;
 	border-style: solid;
 	border-width: 7px;
 	position: absolute;
