@@ -2694,7 +2694,7 @@ body .PopupWeChat .layui-layer-content {
 @media(max-width:960px)
 {
   .x_fixed_tool{
-	  display:none;
+	  /*display:none;*/
   }
 }
 .x_fixed_tool{position:fixed;right:0;bottom:42px;width:42px;z-index:20;text-align:center;background-color:#fff;box-shadow: 0 0 10px 0 rgba(142,102,253,.08);box-shadow: 0 1px 2px 0 rgba(142,102,253,.05);}
