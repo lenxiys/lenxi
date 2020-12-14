@@ -473,7 +473,7 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 @media(max-width:960px)
 {
  .breadcrumb{display:none;}
- .reply_box .mac_msg_l  .msg_list{float: left;width: 100%;margin-bottom: 10px;}
+ .reply_box .mac_msg_l  .msg_list{float: right;width: 90%;margin-bottom: 10px;}
 }
 .breadcrumb {
     visibility: visible;
