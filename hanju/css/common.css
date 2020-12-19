@@ -48,7 +48,7 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 {
  .top-primary-wrapper{width:100%}
 }
-.top-catbox{width:300px;margin:0 20px 20px 0;background:#FFF;padding:0 20px;float:left}
+.top-catbox{width:220px;margin:0 20px 20px 0;background:#FFF;padding:0 20px;float:left}
 @media(max-width:960px)
 {
  .top-catbox{width:50%;margin:0 0px 0px 0;background:#FFF;padding:0 20px;float:left} 
