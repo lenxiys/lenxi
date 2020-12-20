@@ -184,7 +184,7 @@ textarea.form-control{ height: auto; padding: 10px;}
 .myui-panel__head{ position: relative; height: 30px;}
 .myui-panel__head .title{ float: left; display: inline-block; margin:0; padding-right: 10px; line-height: 30px;}
 .myui-panel__head .title img{ display: inline-block; width: 24px; height: 24px; margin-right: 10px; vertical-align: -5px;}
-.myui-panel__head .title, .myui-panel__head .title a{ font-size: 24px;}
+.myui-panel__head .title, .myui-panel__head .title a{ font-size: 20px;}
 .myui-panel__head .more{ line-height: 30px;}
 .myui-panel__head .operate{ position: relative; padding-bottom: 5px;}
 .myui-panel__head .operate.open .dropdown-menu{ display: block;}

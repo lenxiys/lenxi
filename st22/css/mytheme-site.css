@@ -162,7 +162,7 @@ body.active{ padding-top: 110px;}
 	.myui-content__detail .score  .rating li{ margin: 0;}
 	.myui-content__detail .score  .rating li .fa{ font-size: 18px;}
 	.myui-content__operate{ margin-top: 20px; width: 100%; padding: 0; display: -webkit-box; display: -webkit-flex; display: flex;}
-	.myui-content__operate .btn{ text-align: center; padding: 8px; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1;}
+	.myui-content__operate .btn{ text-align: center; padding: 4px; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1;}
 	
 	
 	/* player */
