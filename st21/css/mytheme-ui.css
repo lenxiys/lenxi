@@ -24,8 +24,8 @@ p{ margin-bottom: 20px;}
 
 /* text */
 h1{ font-size:26px;}
-h2{ font-size:24px;}
-h3{ font-size:20px;}
+h2{ font-size:22px;}
+h3{ font-size:18px;}
 h4{ font-size:18px;}
 h5{ font-size:16px;}
 h6{ font-size:14px;}
@@ -172,7 +172,7 @@ textarea.form-control{ height: auto; padding: 10px;}
 .dropdown-box.bottom{ top: 100%; padding-top: 10px; left: 50%; margin-left: -80px;}
 .dropdown-box.left{ left: 100%; padding-left: 10px; bottom: 0;}
 .dropdown-box.right{ right: 100%; padding-right: 10px; bottom: 0;}
-.dropdown-box .item{ padding: 10px; width: 160px; border-radius: 2px;}
+.dropdown-box .item{ padding: 10px; width: 140px; border-radius: 2px;}
 .dropdown-hover{ position: relative;}
 .dropdown-hover:hover .dropdown-box{ display: block;}
 .open>.dropdown-box{display: block;}
@@ -188,7 +188,7 @@ textarea.form-control{ height: auto; padding: 10px;}
 .myui-panel__head{ position: relative; height: 30px;}
 .myui-panel__head .title{ float: left; display: inline-block; margin:0; padding-right: 10px; line-height: 30px;}
 .myui-panel__head .title img{ display: inline-block; width: 24px; height: 24px; margin-right: 10px; vertical-align: -5px;}
-.myui-panel__head .title, .myui-panel__head .title a{ font-size: 20px;}
+.myui-panel__head .title, .myui-panel__head .title a{ font-size: 18px;}
 .myui-panel__head .more{ line-height: 30px;}
 .myui-panel__head .operate{ position: relative; padding-bottom: 5px;}
 .myui-panel__head .operate.open .dropdown-menu{ display: block;}
