@@ -29,7 +29,7 @@ var History =  {
          html+=`<li>
          <a href="${vo.link}" class="history_link" target="_blank">
             <span class="history_name">${vo.name}</span>
-            <span class="history_nid">${vo.nid}</span>
+            <span class="history_nid" style="float:right">${vo.nid}</span>
          </a>
 
       </li>`;
