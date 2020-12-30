@@ -1843,7 +1843,7 @@ footer a {
 }
 .btn-red{
 display: inline-block;
-    padding: 0 20px;
+    padding: 0 10px;
     height: 30px;
     line-height: 28px;
     text-align: center;
@@ -2792,7 +2792,7 @@ body .PopupWeChat .layui-layer-content {
 	  display:none;
   }
 }
-.x_fixed_tool{position:fixed;right:0;bottom:42px;width:42px;z-index:20;text-align:center;background-color:#fff;box-shadow: 0 0 10px 0 rgba(142,102,253,.08);box-shadow: 0 1px 2px 0 rgba(142,102,253,.05);}
+.x_fixed_tool{position:fixed;right:0;bottom:180px;width:42px;z-index:20;text-align:center;background-color:#fff;box-shadow: 0 0 10px 0 rgba(142,102,253,.08);box-shadow: 0 1px 2px 0 rgba(142,102,253,.05);}
 .x_fixed_tool .ft_cell{position:relative;display:block;width:42px;height:42px;color:#999;cursor:pointer;transform:translateZ(0);color:#999}
 .x_fixed_tool .ft_cell .iconfont{position:absolute;top:11px;left:11px;overflow:hidden;cursor:pointer;width:22px;height:22px;font-size:22px;line-height:20px}
 .x_fixed_tool .ft_cell:hover{background:#FF443F;color:#FFF;background: linear-gradient(to left,#ff2823 0,#ff8466 100%);}
