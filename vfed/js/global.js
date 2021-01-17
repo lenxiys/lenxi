@@ -67,7 +67,7 @@ var fed = (_fed = {}, _defineProperty(_fed, 'global', (_ref2 = {}, _defineProper
     /MSIE/i.test(navigator.userAgent) || (console.log('%c%c主题名称%c' + fed.global.vers, 'line-height:28px', 'padding:4px;background:#222;color:#fff;font-size:16px;margin-right:15px', 'color:#3fa9f5;font-size:16px;line-height:28px'), console.log('%c%c主题官网%c' + fed.global.jump, 'line-height:28px', 'padding:4px;background:#222;color:#fff;font-size:16px;margin-right:15px', 'color:#ff9900;font-size:16px;line-height:28px'))
 }), _defineProperty(_ref2, 'mobile', function () {
     if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) return !0
-}), _defineProperty(_ref2, 'vers', 'vfed 3.1(苹果CMSv10)'), _defineProperty(_ref2, 'jump', 'http://on6.cc'), _defineProperty(_ref2, 'tips', function (e) {
+}), _defineProperty(_ref2, 'vers', 'vfed 3.1(苹果CMSv10)'), _defineProperty(_ref2, 'jump', '/'), _defineProperty(_ref2, 'tips', function (e) {
     alert(e)
 }), _defineProperty(_ref2, 'ajax', function (e) {
     $.get(e)
